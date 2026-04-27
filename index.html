@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Koroma | BSEM Student</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #1f1f1f, #2c3e50);
+    color: #fff;
+    line-height: 1.8;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.85);
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00c6ff;
+}
+
+/* HERO */
+.hero {
+    padding: 120px 20px 60px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #00c6ff;
+    font-size: 18px;
+}
+
+/* Typing Animation */
+.typing {
+    border-right: 2px solid #00c6ff;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(40, end), blink 0.7s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    50% { border-color: transparent }
+}
+
+/* SECTIONS */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    animation: fadeUp 1s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    color: #00c6ff;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#why">Why Web Design</a>
+    <a href="#career">Career</a>
+    <a href="#strengths">Strengths</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+    <h1>Emmanuel Koroma</h1>
+    <p class="tagline">BSEM Student | Calm • Focused • Independent</p>
+    <p class="typing">
+        Building a strong future through discipline, growth, and technology.
+    </p>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        My name is Emmanuel Koroma, and I am currently a student pursuing a degree in Bachelor of Science in Software Engineering with Multimedia(BSEM) . I consider myself an introverted individual who values peace, personal space, and a calm environment. I prefer to avoid unnecessary stress, conflict, and situations that may disrupt my focus or emotional balance.
+    </p>
+
+    <p>
+        I believe in maintaining a disciplined lifestyle and continuously working on self-improvement. Rather than seeking attention or validation from others, I focus on building myself mentally, physically, and intellectually. This mindset allows me to stay grounded and focused on my long-term goals.
+    </p>
+
+    <p>
+        In my free time, I enjoy activities such as playing basketball, watching movies, and exploring content that helps me grow. These activities help me relax while also improving my thinking and perspective on life.
+    </p>
+</section>
+
+<!-- WHY -->
+<section id="why">
+    <h2>Why I Study Web Design</h2>
+    <p>
+        I chose to study web design because I am interested in understanding how digital platforms are created and how they function. In today’s modern world, websites play a major role in communication, business, education, and entertainment.
+    </p>
+
+    <p>
+        Learning web design gives me the ability to create and manage digital experiences. It also allows me to express creativity while developing technical skills that are valuable in today’s job market.
+    </p>
+
+    <p>
+        Additionally, web design suits my personality because it allows me to work independently and think deeply. I can focus on building projects at my own pace, which aligns well with my introverted nature.
+    </p>
+</section>
+
+<!-- CAREER -->
+<section id="career">
+    <h2>Career Goals</h2>
+    <p>
+        My primary career goal is to become highly skilled in the field of technology, particularly in web development and design. I aim to build strong technical skills that will allow me to create functional and visually appealing digital solutions.
+    </p>
+
+    <p>
+        In the future, I hope to work on meaningful projects that solve real-world problems and improve people’s experiences online. I am also interested in the possibility of starting my own business or building a personal brand based on my skills.
+    </p>
+
+    <p>
+        Ultimately, I want to achieve financial independence and create a stable life for myself. I also want to continue improving in all areas of my life, including personal development, discipline, and knowledge.
+    </p>
+</section>
+
+<!-- STRENGTHS -->
+<section id="strengths">
+    <h2>Strengths & Interests</h2>
+    <p>
+        One of my key strengths is my ability to remain calm and composed in different situations. I prefer to think carefully before making decisions and avoid unnecessary drama or conflict.
+    </p>
+
+    <p>
+        I am also consistent when it comes to personal growth. When I set goals for myself, I stay committed and focused on achieving them, even when it requires patience and discipline.
+    </p>
+
+    <p>
+        My interests include basketball, technology, personal development, and learning new skills that can improve my future. I enjoy activities that challenge me and help me grow as an individual.
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© Emmanuel Koroma, BSEM, Semester 4, ID:905004761, 2026</p>
+</footer>
+
+</body>
+</html>
+
