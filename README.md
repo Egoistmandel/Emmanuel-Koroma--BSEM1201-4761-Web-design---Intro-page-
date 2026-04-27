@@ -21,7 +21,7 @@ Open the `index.html` file in a browser
 or view the live site (if enabled)
 
 ## Repository Link
-
+https://github.com/Egoistmandel/Emmanuel-Koroma--BSEM1201-4761-Web-design---Intro-page-.git
 
 ## License
 MIT License
